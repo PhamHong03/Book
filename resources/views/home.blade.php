@@ -24,76 +24,7 @@
     @php
         $menusHtml =  App\Helper\Helper::menus2($menus);
     @endphp
-    {{-- <div class="container category">  
-      <div class="row">
-          <div class="icon">
-            <i class="fa-solid fa-list"></i>
-              Danh mục các sản phẩm
-          </div>
-      </div>    
-      <div class="row">
-          <div class="category_30">
-            <span>{!! $menusHtml !!}</span>
-          </div>
-          <div class="category_70">
-              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="product-item">
-                  <div class="product-img" >
-                      <img src="storage\uploads\2024\04\tubaoveminnh.jpg" alt="" class="image" >
-                      <span class="product-img-sale">50%</span>
-                  </div>
-                  <div class="rating" >
-                      <ul class="rating--list " >
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-regular fa-star"></i></li>
-                      </ul>   
-                  </div>
-                  <h6 >Từ điển Anh - Việt</h6>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="product-item">
-                  <div class="product-img" >
-                      <img src="" alt="" class="image" >
-                      <span class="product-img-sale">50%</span>
-                  </div>
-                  <div class="rating" >
-                      <ul class="rating--list " >
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-regular fa-star"></i></li>
-                      </ul>   
-                  </div>
-                  <h6 >Từ điển Anh - Việt</h6>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="product-item">
-                  <div class="product-img" >
-                      <img src="" alt="" class="image" >
-                      <span class="product-img-sale">50%</span>
-                  </div>
-                  <div class="rating" >
-                      <ul class="rating--list " >
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-solid fa-star"></i></li>
-                          <li class="me-2 rating--item"><i class="fa-regular fa-star"></i></li>
-                      </ul>   
-                  </div>
-                  <h6 >Từ điển Anh - Việt</h6>
-                </div>
-              </div>
-          </div>
-      </div>
-        
-    </div> --}}
+
     
     <div class="section-two">
       <div class="container">

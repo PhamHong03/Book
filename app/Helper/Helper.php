@@ -5,6 +5,7 @@ namespace App\Helper;
 
 use App\Models\Product;
 use Illuminate\Support\Str;
+use NumberFormatter;
 
 class Helper {
 
@@ -100,6 +101,24 @@ class Helper {
         return $price_sal;
     }
 
+    public static function price_amenity($price) {
+        $pri = number_format($price);
+        return $pri;
+    }
+
+
+    public static function totalPrice($price, $price_sale, $price_amenity,$amenity_name) {
+        $total = 0;
+        $price = self::price_sal($price, $price_sale);
+        if($amenity_name == "Standard"){
+            $total = $price + $price_amenity;
+        }else if($amenity_name == "Normal"){
+            $total = $price + $price_amenity;
+        }else{
+            $total = $price + $price_amenity;
+        }
+        return number_format($total);
+    }
     // public static function freeShip(){
     //     $freeShipInput = request()->input('freeShipInput'); 
     //     $ship = 0;

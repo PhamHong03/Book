@@ -6,7 +6,7 @@ use App\Models\Product;
 use Illuminate\Support\Facades\Session;
 use PhpParser\Node\Stmt\TryCatch;
 use Illuminate\Support\Str;
-    class UploadService {
+class UploadService {
 
         public function store($request) {
             if($request->hasFile('file')) {
